@@ -32,7 +32,7 @@ export default NextAuth({
             clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
             clientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET,
             authorization: LOGIN_URL,
-            checks: "both"
+            checks: console.log()
         }),
     // ...add more providers here
     ],
