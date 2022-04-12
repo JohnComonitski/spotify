@@ -1,7 +1,7 @@
 import useSpotify from "../hooks/useSpotify";
 import useSongInfo from "../hooks/useSongInfo"
 import Canvas from "./Canvas";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function LavaLamp(){
     const songInfo = useSongInfo();

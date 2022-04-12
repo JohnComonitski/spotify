@@ -1,5 +1,5 @@
 import useSpotify from "./useSpotify";
-import { useState } from "react"
+import React, { useState } from "react"
 import { useRecoilState } from "recoil";
 import { currentTrackIdState } from "../atoms/songAtom";
 import { useEffect } from "react/cjs/react.development";

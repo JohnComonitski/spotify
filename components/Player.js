@@ -1,6 +1,6 @@
 import { useSession } from "next-auth/react";
 import useSongInfo from "../hooks/useSongInfo"
-import { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useRecoilState } from "recoil";
 import { featuresState  } from "../atoms/featuresAtom";
 import { activeState  } from "../atoms/activeAtom";
