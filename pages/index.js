@@ -1,5 +1,5 @@
 import Sidebar from '../components/Sidebar'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Center from '../components/Center'
 import Player from '../components/Player'
 import { getSession } from 'next-auth/react'
