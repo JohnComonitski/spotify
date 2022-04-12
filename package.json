@@ -5,11 +5,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
-  "homepage": "https://johncomsprojects.com/spotify/",
+  "homepage": "https://www.spotifyvisualizer.com",
   "dependencies": {
     "@heroicons/react": "^1.0.5",
+    "axios": "^0.26.1",
     "dotenv": "^14.3.0",
     "lodash": "^4.17.21",
     "next": "12.0.8",

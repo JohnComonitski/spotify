@@ -31,7 +31,8 @@ export default NextAuth({
         SpotifyProvider({
             clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
             clientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET,
-            authorization: LOGIN_URL
+            authorization: LOGIN_URL,
+            checks: "both"
         }),
     // ...add more providers here
     ],
